@@ -5,8 +5,15 @@ using namespace System;
 // http://www.wisdomsoft.jp/386.html
 
 namespace Lib {
+	public enum ItemType {
+		A,
+		B,
+		C
+	};
+
 	public ref class Item {
 	public:
+		ItemType ItemType;
 		String ^Name;
 		int Price;
 	};

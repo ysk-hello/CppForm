@@ -3,6 +3,7 @@
 #include <string>
 
 // éŒ¾
+// C++‚ÌƒNƒ‰ƒX
 
 public class Hello {
 private:
@@ -13,4 +14,5 @@ public:
 	int Read2();
 	void Write();
 	int ToInt(std::string sval);
+	static int Add(int x, int y);
 };

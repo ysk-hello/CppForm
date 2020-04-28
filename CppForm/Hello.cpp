@@ -103,3 +103,8 @@ int Hello::ToInt(std::string sval)
 
 	return val;
 }
+
+int Hello::Add(int x, int y)
+{
+	return x + y;
+}
